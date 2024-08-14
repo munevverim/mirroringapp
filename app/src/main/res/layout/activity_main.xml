@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f8f8f8">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textSize="24sp"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_text"
+        android:textSize="18sp"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_start_mirroring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_mirroring_button"
+        android:background="@color/buttonColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Waiting"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

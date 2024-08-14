@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AllCast</string>
+    <string name="title_text">AllCast</string>
+    <string name="subtitle_text">Screen Mirroring to TV</string>
+    <string name="start_mirroring_button">Start Mirroring</string>
+    <string name="status_waiting">Status: Waiting</string>
+</resources>
